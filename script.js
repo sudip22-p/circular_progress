@@ -24,45 +24,8 @@ function doChanges(){
         },25);
     } 
 }
-// enter.addEventListener("click",()=>{
-//     if(validateNumber()){
-//         userValue=userInput.value;
-//         //0 to present value 
-//         console.log(presentValue);
-//         console.log(userValue);
-//         if(userInput===presentValue){
-//             console.log("equal ko ma");
-//             setInterval(()=>{
-//                 console.log(presentValue);
-//                 console.log(userValue);
-//                 while (userInput!=presentValue) {
-//                     changeValues(presentValue);
-//                     presentValue+=1;
-//                 }
-//             },100);
-//         } else if(userInput>presentValue){
-//             setInterval(()=>{
-//                 while (userInput!=presentValue) {
-//                     changeValues(presentValue);
-//                     presentValue+=1;
-//                 }
-//             },100);
-            
-//         } else if(userInput<presentValue){
-//             setInterval(()=>{
-//                 while (userInput!=presentValue) {
-//                     changeValues(presentValue);
-//                     presentValue-=1;
-//                 }
-//             },100);
 
-//         }
-//     }
-//     console.log("las ma fn sakyo aba");
-//     console.log(presentValue);
-//     console.log(userValue);
-//     userInput.value="";
-// });
+
 
 //change fnc
 function changeValues(num){
