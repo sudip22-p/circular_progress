@@ -2,10 +2,89 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: greenyellow;
+    min-height: 100vh;
+}
+h1{
+    color: #333;
+    font-size: 32px;
+}
+h2{
+    color: greenyellow;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+div.wrapper{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    min-width: 500px;
+}
+div.circle-show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+div#circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    width: 320px;
+    height:320px;
+    background:conic-gradient(greenyellow 0deg ,rgb(227, 223, 223) 0deg);
+}
+div#percentage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: greenyellow;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    background-color: white;
+}
+div.num-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 60%;
+    height: 36px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid greenyellow;
+    outline: none;
+}
+input[type="number"]{
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+}
+input[type="submit"]{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px;
+    background-color: greenyellow;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: background-color 1s ease-in-out;
+}
+input[type="submit"]:hover{
+    background-color: green;
 }
