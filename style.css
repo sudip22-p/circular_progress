@@ -22,11 +22,15 @@ h2{
     margin-bottom: 8px;
 }
 div.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #fff;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    min-width: 500px;
+    width: 50vw;
 }
 div.circle-show{
     display: flex;
@@ -65,7 +69,7 @@ div.num-input{
     flex-direction: column;
 }
 input{
-    width: 60%;
+    width: 35vw;
     height: 36px;
     text-align: center;
     font-size: 18px;
@@ -87,4 +91,202 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
     background-color: green;
+}
+
+/*responsive making codes:*/
+@media (max-width:1075px) {
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 21px;
+    }
+    div.wrapper{
+        padding: 18px;
+        margin: 18px;
+        border-radius: 10px;
+        width: 50vw;
+    }
+    div#circle{
+        width: 300px;
+        height:300px;
+    }
+    div#percentage{
+        font-size: 35px;
+        width: 265px;
+        height: 265px;
+    }
+    input{
+        width: 35vw;
+        height: 36px;
+        font-size: 16px;
+    }
+}
+@media (max-width:899px) {
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    div.wrapper{
+        padding: 16px;
+        margin: 16px;
+        border-radius: 10px;
+        width: 50vw;
+    }
+    div#circle{
+        width: 280px;
+        height:280px;
+    }
+    div#percentage{
+        font-size: 30px;
+        width: 250px;
+        height: 250px;
+    }
+    input{
+        width: 40vw;
+        height: 36px;
+        font-size: 15px;
+    }
+}
+@media (max-width:789px) {
+    h1{
+        font-size: 21px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    div.wrapper{
+        padding: 15px;
+        margin: 15px;
+        border-radius: 10px;
+        width: 70vw;
+    }
+    div#circle{
+        width: 250px;
+        height:250px;
+    }
+    div#percentage{
+        font-size: 25px;
+        width: 225px;
+        height: 225px;
+    }
+    input{
+        width: 45vw;
+        height: 36px;
+        font-size: 14px;
+    }
+}
+@media (max-width:589px) {
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    div.wrapper{
+        padding: 12px;
+        margin: 12px;
+        border-radius: 10px;
+        width: 70vw;
+    }
+    div#circle{
+        width: 180px;
+        height:180px;
+    }
+    div#percentage{
+        font-size: 21px;
+        width: 160px;
+        height: 160px;
+    }
+    input{
+        width: 50vw;
+        height: 36px;
+        font-size: 14px;
+    }
+}
+@media (max-width:489px) {
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    div.wrapper{
+        padding: 12px;
+        margin: 12px;
+        border-radius: 10px;
+        width: 90vw;
+    }
+    div#circle{
+        width: 180px;
+        height:180px;
+    }
+    div#percentage{
+        font-size: 21px;
+        width: 160px;
+        height: 160px;
+    }
+    input{
+        width: 70vw;
+        height: 36px;
+        font-size: 14px;
+    }
+}
+@media (max-width:339px) {
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    div.wrapper{
+        padding: 12px;
+        margin: 12px;
+        border-radius: 10px;
+        width: 90vw;
+    }
+    div#circle{
+        width: 150px;
+        height:150px;
+    }
+    div#percentage{
+        font-size: 21px;
+        width: 132px;
+        height: 132px;
+    }
+    input{
+        width: 70vw;
+        height: 36px;
+        font-size: 14px;
+    }
+}
+@media (max-width:239px) {
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    div.wrapper{
+        padding: 12px;
+        margin: 12px;
+        border-radius: 10px;
+        width: 95vw;
+    }
+    div#circle{
+        width: 110px;
+        height:110px;
+    }
+    div#percentage{
+        font-size: 17px;
+        width: 95px;
+        height: 95px;
+    }
+    input{
+        width: 85vw;
+        height: 36px;
+        font-size: 14px;
+    }
 }
